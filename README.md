@@ -22,20 +22,22 @@ The **IP Tracer Tool** is a simple Python application that traces the geographic
 ## Installation
 
 1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/ip-tracer-tool.git
+   cd ip-tracer-tool
+   ```
 
-   git clone 
-
-3. **Install dependencies**:
+2. **Install dependencies**:
    You can install the required libraries using `pip`:
-   
+   ```bash
    pip install requests colorama
-   
+   ```
 
-4. **Run the tool**:
+3. **Run the tool**:
    After installing the dependencies, you can run the script using:
-   
+   ```bash
    python iptracer.py
-   
+   ```
 
 ## Usage
 
@@ -82,9 +84,9 @@ Timezone: America/Los_Angeles
 
 ### Example Error Output
 
-
+```bash
 Error: invalid query
-
+```
 
 ## Contributing
 
